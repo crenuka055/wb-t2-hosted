@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v5.3.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login">
+        <h1 class="text-center">Signup</h1>
+        <form class="needs-validation" action="#">
+            <div class="form-group was-validated">
+                <label class="form-label" for="email">Email Address</label>
+                <input class="form-control" type="emali" id="email" required>
+                <div class="invalid-feedback">
+                    Please enter your email address!
+                </div>
+            </div>
+            
+            <div class="form-group was-validated">
+                <label class="form-label" for="password">Pasword</label>
+                <input class="form-control" type="password" id="password" required>
+                <div class="invalid-feedback">
+                    Please enter your password.
+                </div>
+            </div>  
+            
+            <div class="form-group form-check">
+                <input class="form-check-input" type="checkbox" id="check">
+                <label class="form-check-label" type="check">Remember Me</label>
+            </div>
+            <h6 class="mt-md-1" style="color: rgb(108, 117, 125); word-spacing: 1px; --darkreader-inline-color:#9e9689;" data-darkreader-inline-color="">Don't have an account the <a href="Register.html" class="reg_link">Register</a> here</h5>
+
+            <input class="btn btn-success w-100" type="submit" value="SIGN IN">
+        </form>
+    </div>
+    </body>
+</html>
